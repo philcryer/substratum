@@ -1,5 +1,5 @@
 # substratum
-`Something that underlies or serves as a basis or foundation.` In this case it's a base bash script with built in 'best practices' I've learned over the years built-in, use it as a framework to build your own.
+`Something that underlies or serves as a basis or foundation.` In this case it's a base bash script with built-in 'best practices' I've learned over the years; use it as a framework to build your own scripts.
 
 ## About
 This is a base script with built in 'best practices' I've learned over the years. The script outputs all activity to a `logs/` directory, features debugging option you can turn on in the base variables section, and has an open `_main` fuction for you to add your functionality.
@@ -43,4 +43,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ## Feedback
 Feedback for and changes or improvement is always welcome, send a message or open an [Issue](https://github.com/philcryer/substratum/issues) to get started.
 
-### thanks
+### Thanks / Disclaimers
+* YMMV
+* No refunds or exchanges
+* Offer not valid in Tennessee. Sorry Tennessee!
