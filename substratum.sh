@@ -151,14 +151,7 @@ _cleanup(){
         exit 1
       fi
     fi
-    msg="deleted work directory"
-    if [[ -d python-venv ]]; then
-      if ! rm -rf "python-venv"; then
-        echo "$pkg: failed to remove directory: python-venv"
-        exit 1
-      fi
-    fi
-    msg="deleted python-venv directory"
+    msg="deleted $work_dir"
   _message-logger 
 }
 
@@ -192,6 +185,7 @@ _message "preflight successful"
 _message-header "starting main functions"
 _main
 
+
 #####################################################################
 ## Successful exit
 #####################################################################
@@ -200,7 +194,8 @@ time_end=$(date +%s)
 run_time=$(python -c "print '%u:%02u' % ((${time_end} - ${time_start})/60, (${time_end} - ${time_start})%60)")
 _message "runtime: ${run_time}"
 
-##_cleanup
+## run cleanup to remove $work_dir and associated output
+#_cleanup
 msg="-- exiting --"
 _message-logger 
 
