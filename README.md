@@ -44,6 +44,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 Feedback for and changes or improvement is always welcome, send a message or open an [Issue](https://github.com/philcryer/substratum/issues) to get started.
 
 ### Thanks / Disclaimers
+* Thanks
 * YMMV
 * No refunds or exchanges
 * Offer not valid in Tennessee. Sorry Tennessee!
