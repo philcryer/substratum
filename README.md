@@ -2,13 +2,13 @@
 Something that underlies or serves as a basis or foundation.
 
 ## About
-This is a base script with built in 'best practices' I've learned over the years. The script outputs all activity to a `logs/` directory, features debugging option on the base variables section, and has an open _main_ fuction for you to add functionality.
+This is a base script with built in 'best practices' I've learned over the years. The script outputs all activity to a `logs/` directory, features debugging option you can turn on in the base variables section, and has an open `_main` fuction for you to add your functionality.
 
 ## Usage
-* REVIEW script variables
-* ADD needed utilities or commands to the _prefight_ function, script will verify they're available and in the user's `$PATH`
-* ADD tasks or commands to run to the _main_ function to make it do what you want
-* DIRECT output to the `work/` directory for artifacts if needed
+* REVIEW script variables and modify where needed
+* ADD needed utilities or commands to the `_prefight` function, the script will verify they're available and in the user's `$PATH` during each run
+* ADD tasks or commands to run in the `_main` function to have the script do what you want
+* DIRECT output to the `work/` directory for any artifacts, if needed
 
 ## License 
 ```BSD 2-Clause License
@@ -39,6 +39,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
 ## Feedback
-Feedback for and changes or improvement is always welcome, send a message or open an _Issue_ to get started.
+Feedback for and changes or improvement is always welcome, send a message or open an [Issue](/issues) to get started.
 
 ## thanks
