@@ -39,6 +39,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
 ## Feedback
-Feedback for and changes or improvement is always welcome, send a message or open an [Issue](issues) to get started.
+Feedback for and changes or improvement is always welcome, send a message or open an [Issue](https://github.com/philcryer/substratum/issues) to get started.
 
 ### thanks
