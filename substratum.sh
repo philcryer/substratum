@@ -5,6 +5,7 @@
 #####################################################################
 ## Features
 ##  * a baseline bash script, with best practices built in
+##  * output to logs and work directories
 ##  * add needed utilities to prefight, script will verify them
 ##  * add tasks/commands to _main function and make it your own
 ##  * liberal BSD 2-Clause License for open usage
@@ -32,8 +33,9 @@ fi
 ## Set script variables (edit as needed)
 #####################################################################
 pkg="substratum"
-#version="0.10"
-version="$(git tag)"
+## version number could use your git tag
+#version="$(git tag)"
+version="0.10"
 system=$(uname)
 host=$(hostname -s)
 work_dir="$__dir/work"

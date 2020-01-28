@@ -9,6 +9,8 @@ This is a base script with built in 'best practices' I've learned over the years
 * ADD needed utilities or commands to the `_preflight` function, the script will verify they're available and in the user's `$PATH` during each run
 * ADD tasks or commands to run in the `_main` function to have the script do what you want
 * DIRECT output to the `work/` directory for any artifacts, if needed
+* MAKE executable `chmod +x substratum.sh`
+* RUN `./substratum.sh`
 
 ## License 
 ```BSD 2-Clause License
