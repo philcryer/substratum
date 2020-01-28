@@ -6,7 +6,7 @@ This is a base script with built in 'best practices' I've learned over the years
 
 ## Usage
 * REVIEW script variables and modify where needed
-* ADD needed utilities or commands to the `_prefight` function, the script will verify they're available and in the user's `$PATH` during each run
+* ADD needed utilities or commands to the `_preflight` function, the script will verify they're available and in the user's `$PATH` during each run
 * ADD tasks or commands to run in the `_main` function to have the script do what you want
 * DIRECT output to the `work/` directory for any artifacts, if needed
 
@@ -39,6 +39,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
 ## Feedback
-Feedback for and changes or improvement is always welcome, send a message or open an [Issue](/issues) to get started.
+Feedback for and changes or improvement is always welcome, send a message or open an [Issue](issues) to get started.
 
-## thanks
+### thanks
